@@ -1,67 +1,56 @@
-
+html {
+    background-color: ;
+}
 
 header {
-	vertical-align: center;
-	background-color: black;
-	color: white;
-	text-align: center;
-	border: 5px solid white;
+    background-color: green;
+    vertical-align: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
 }
 
 nav{
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+
+}
+
+
+
+nav ul li {
+     float: left; 
+    text-decoration: none;
+    border-radius: 20px;
+    border-bottom-style: groove;
+    background-color: green;
+    padding: 15px;
+    margin: 40px;
+    
+}
+
+nav ul a {
+    display: block;
+    text-decoration: none
+    
+}
+
+nav ul li a:hover {
+    color: yellow;
+    font-size: 1.1em;
+}
+
+section {
     text-align: center;
-    padding: 0 10px;
-    margin:20px;
-    background-color: gold;
 }
-
-nav ul { 
-	list-style: none;
-	margin: 0 10px;
-	padding: 0;
-	border: 1px solid gold;
-}
-
-nav li {
-	display:inline-block;
-
-}
-
-nav a {
-	font-weight: 800;
-	padding: 15px 10px;
-}
-nav a:hover {
-  text-decoration: underline;
-  color: green;
-  font-size:1.1em;
-}
-
-body{
-	 text-align: center;
-	 font-size: 1.1em;
-	 font-family: 'nunito', sans-serif 	
-}
-
-
-
-
-
-
-
-h1 {
-    background-color: green ;
-}
- 
- body{
-	   background-color:green;
-}
-
-
-body { background-image: url(           )
-
-
- }
-
-
-
